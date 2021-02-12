@@ -1,0 +1,6 @@
+/* Import fonts, preloaded with gatsby-plugin-preload-fonts
+  !!! Don't forget to: 'npm run preload-fonts' before build website to generate a font asset map */
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap');
