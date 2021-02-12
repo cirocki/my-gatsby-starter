@@ -3,9 +3,9 @@ import { ThemeProvider } from "styled-components"
 
 const theme = {
   colors: {
-    dark: "#16191a",
-    light: "#f2f2f2",
-    gold: "#968b63",
+    dark: "#111",
+    light: "#fff",
+    accent: "#d50000",
   },
   fonts: {
     primary: `"Open Sans", sans-serif`,

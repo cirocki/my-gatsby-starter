@@ -5,7 +5,7 @@ import Layout from "../components/layout/Layout"
 
 const StyledHeader = styled.h2`
   font-family: ${props => props.theme.fonts.secondary};
-  color: lime;
+  color: ${props => props.theme.colors.accent};
   font-size: 3rem;
 `
 
