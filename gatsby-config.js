@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `My Gatsby Starter`,
+    description: `My custom starter in Gatsby.js`,
+    author: `Marcin Cirocki`,
+  },
 
   plugins: [
     {
@@ -17,5 +22,6 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-react-helmet`,
   ],
 }

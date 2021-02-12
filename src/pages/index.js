@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../seo/seo"
 import styled from "styled-components"
 import Layout from "../components/layout/Layout"
 
@@ -10,7 +11,8 @@ const StyledHeader = styled.h2`
 export default function Home() {
   return (
     <Layout>
-      <StyledHeader>Starter!</StyledHeader>
+      <SEO title="Home" description="My custom starter in Gatsby.js" />
+      <StyledHeader>My Gatsby Starter Index</StyledHeader>
     </Layout>
   )
 }
