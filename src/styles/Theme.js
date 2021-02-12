@@ -8,8 +8,8 @@ const theme = {
     gold: "#968b63",
   },
   fonts: {
-    primary: `"Jost", sans-serif`,
-    secondary: `"Playfair Display", serif`,
+    primary: `"Open Sans", sans-serif`,
+    secondary: `"Montserrat", sans-serif`,
   },
   maxWidth: {
     xs: "479px",
