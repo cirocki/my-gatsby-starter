@@ -12,8 +12,10 @@ const StyledHeader = styled.h2`
 export default function Home() {
   return (
     <Layout>
-      <SEO description="My custom starter in Gatsby.js" />
-      <StyledHeader>My Gatsby Starter Index</StyledHeader>
+      <main>
+        <SEO title="Home" description="My custom starter in Gatsby.js" />
+        <StyledHeader>My Gatsby Starter Index</StyledHeader>
+      </main>
     </Layout>
   )
 }

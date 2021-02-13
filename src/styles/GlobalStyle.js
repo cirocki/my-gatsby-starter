@@ -2,11 +2,12 @@ import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background: ${props => props.theme.colors.gold};
+    background: ${props => props.theme.colors.light};
     color: ${props => props.theme.colors.dark};
     font-family: ${props => props.theme.fonts.primary};
     position: relative;
     overflow-x: hidden;
+    height: 100%;
   }
   a {
     text-decoration: none;

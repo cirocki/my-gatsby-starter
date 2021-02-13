@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `My Gatsby Starter`,
     description: `My custom starter in Gatsby.js`,
-    author: `Author`,
+    author: `CIROCKI.PL`,
+    authorWebsite: `https://cirocki.pl/`,
   },
 
   plugins: [
