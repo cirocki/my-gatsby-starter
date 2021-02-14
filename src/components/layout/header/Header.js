@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import Container from "../Container"
 import MainNav from "./MainNav"
 
 const StyledHeader = styled.header`
@@ -11,7 +12,7 @@ const StyledHeader = styled.header`
   background: ${props => props.theme.colors.dark};
 `
 const StyledHeading = styled.h1`
-  padding: 1rem;
+  padding: 1rem 0;
   color: ${props => props.theme.colors.light};
   font-family: ${props => props.theme.fonts.secondary};
   font-weight: 600;
@@ -22,8 +23,10 @@ const StyledHeading = styled.h1`
 export default function Header() {
   return (
     <StyledHeader>
-      <StyledHeading>Starter Theme</StyledHeading>
-      <MainNav />
+      <Container>
+        <StyledHeading>Starter Theme</StyledHeading>
+        <MainNav />
+      </Container>
     </StyledHeader>
   )
 }

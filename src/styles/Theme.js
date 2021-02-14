@@ -11,6 +11,7 @@ const theme = {
     primary: `"Open Sans", sans-serif`,
     secondary: `"Montserrat", sans-serif`,
   },
+  containerWidth: "1440px",
   maxWidth: {
     xs: "479px",
     s: "768px",
