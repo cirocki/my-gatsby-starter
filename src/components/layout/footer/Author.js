@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
 const StyledWrapper = styled.div`
-  padding: 1rem;
+  padding: 2rem;
 `
 const StyledParagraph = styled.p`
   color: ${props => props.theme.colors.light};

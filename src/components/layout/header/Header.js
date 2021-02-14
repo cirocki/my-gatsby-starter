@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import MainNav from "./MainNav"
 
 const StyledHeader = styled.header`
   background: ${props => props.theme.colors.dark};
@@ -17,6 +18,7 @@ export default function Header() {
   return (
     <StyledHeader>
       <StyledHeading>Starter Theme</StyledHeading>
+      <MainNav />
     </StyledHeader>
   )
 }
