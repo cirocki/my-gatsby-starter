@@ -3,6 +3,11 @@ import styled from "styled-components"
 import MainNav from "./MainNav"
 
 const StyledHeader = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   background: ${props => props.theme.colors.dark};
 `
 const StyledHeading = styled.h1`
